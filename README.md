@@ -10,3 +10,6 @@ This is for beginer and easy to learn.
     "client": "npm run start --prefix ../frontend",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
   },
+  
+  #frontend package.json
+  "proxy": "http://localhost:4000/",
